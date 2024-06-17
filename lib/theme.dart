@@ -6,7 +6,7 @@ Color secondaryColor = Color(0xff38ABBE);
 Color alertColor = Color(0xffED6363);
 Color priceColor = Color(0xff2C96F1);
 
-Color backgroundColor1 = Color(0xffE5E5E5);
+Color backgroundColor1 = Color(0xff1F1D2B);
 Color backgroundColor2 = Color(0xffF0F0F0);
 Color backgroundColor3 = Color(0xffFFFFFF);
 

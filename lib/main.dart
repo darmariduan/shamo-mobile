@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'theme.dart';
+import 'package:shamo/pages/splash_page.dart';
+import 'package:shamo/pages/sign_in_page.dart';
 
 void main() => runApp(MyApp());
 
@@ -9,19 +10,10 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: HomePage(),
-    );
-  }
-}
-
-class HomePage extends StatelessWidget {
-  HomePage({super.key});
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: Center(
-        child: Text('Halo Semuanya', style: secondaryTextStyle),
-      ),
+      routes: {
+        '/': (context) => SplashPage(),
+        '/sign-in': (context) => SignInPage(),
+      },
     );
   }
 }
