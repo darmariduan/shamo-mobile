@@ -25,7 +25,7 @@ class MainPage extends StatelessWidget {
         child: BottomAppBar(
           shape: const CircularNotchedRectangle(),
           notchMargin: 10,
-          clipBehavior: Clip.antiAlias,
+          clipBehavior: Clip.antiAliasWithSaveLayer,
           child: BottomNavigationBar(
               backgroundColor: backgroundColor4,
               type: BottomNavigationBarType.fixed,
