@@ -23,7 +23,7 @@ class WishlistPage extends StatelessWidget {
       return Expanded(
         child: Container(
           width: double.infinity,
-          color: backgroundColor4,
+          color: backgroundColor3,
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
@@ -79,7 +79,7 @@ class WishlistPage extends StatelessWidget {
     Widget content() {
       return Expanded(
         child: Container(
-          color: backgroundColor4,
+          color: backgroundColor3,
           child: ListView(
             children: [
               Padding(

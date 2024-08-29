@@ -90,7 +90,7 @@ class ProfilePage extends StatelessWidget {
           width: double.infinity,
           padding: EdgeInsets.symmetric(horizontal: defaultMargin),
           decoration: BoxDecoration(
-            color: backgroundColor4,
+            color: backgroundColor3,
           ),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
